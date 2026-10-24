@@ -47,7 +47,7 @@ body {
     border: 1px solid black;
     background-color: #2563eb;
     color: white;
-    transition: background-color 0.3s ease, color o.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .hero-buttons a:hover {
@@ -97,10 +97,18 @@ body {
     background-color: #18232e;
 }
 
+
 .project-card {
     background-color: #18232e;
     padding: 25px;
     margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid #2a3744;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
 }
 
 .project-card a {
@@ -116,14 +124,6 @@ body {
 
 .project-card p {
     line-height: 1.6;
-}
-
-.project-card {
-    background-color: #18232e;
-    padding: 25px;
-    margin-top: 20px;
-    border-radius: 8px;
-    border: 1px solid #2a3744;
 }
 
 .services {
